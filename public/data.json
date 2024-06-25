@@ -1,0 +1,74 @@
+[
+  {
+    "id": "coffee-mug",
+    "title": "Coffee Mug",
+    "description": "A nice mug for your coffee.",
+    "price": 9.99,
+    "size": ["Small", "Medium", "Large"],
+    "color": ["White", "Black"],
+    "image": "/images/coffee-mug.webp"
+  },
+  {
+    "id": "hoodie",
+    "title": "Hoodie",
+    "description": "A comfortable hoodie.",
+    "price": 39.99,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Black", "Gray"],
+    "image": "/images/hoodie.webp"
+  },
+  {
+    "id": "longsleeve",
+    "title": "Longsleeve",
+    "description": "A stylish longsleeve.",
+    "price": 29.99,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Black", "White"],
+    "image": "/images/longsleeve.webp"
+  },
+  {
+    "id": "shorts",
+    "title": "Shorts",
+    "description": "Comfortable shorts for everyday use.",
+    "price": 19.99,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Black", "Gray"],
+    "image": "/images/shorts-vintage-front.webp"
+  },
+  {
+    "id": "sweatpants",
+    "title": "Sweatpants",
+    "description": "Cozy sweatpants.",
+    "price": 34.99,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Black", "Gray"],
+    "image": "/images/sweatpants.webp"
+  },
+  {
+    "id": "sweatshirt",
+    "title": "Sweatshirt",
+    "description": "Warm sweatshirt.",
+    "price": 29.99,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Black", "Gray"],
+    "image": "/images/sweatshirt.webp"
+  },
+  {
+    "id": "tshirt-black",
+    "title": "Black T-shirt",
+    "description": "A black t-shirt.",
+    "price": 14.99,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Black"],
+    "image": "/images/tee-black.webp"
+  },
+  {
+    "id": "tshirt-white",
+    "title": "White T-shirt",
+    "description": "A white t-shirt.",
+    "price": 14.99,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["White"],
+    "image": "/images/tee-white.webp"
+  }
+]
