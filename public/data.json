@@ -70,5 +70,32 @@
     "size": ["S", "M", "L", "XL"],
     "color": ["White"],
     "image": "/images/tee-white.webp"
+  },
+  {
+    "id": "235",
+    "title": "Shorts",
+    "description": "Comfortable shorts for everyday use.",
+    "price": 19.99,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Black", "Gray"],
+    "image": "/images/shorts-vintage-front.webp"
+  },
+  {
+    "id": "543",
+    "title": "Sweatpants",
+    "description": "Cozy sweatpants.",
+    "price": 34.99,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Black", "Gray"],
+    "image": "/images/sweatpants.webp"
+  },
+  {
+    "id": "sweatsh5678irt",
+    "title": "Sweatshirt",
+    "description": "Warm sweatshirt.",
+    "price": 29.99,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Black", "Gray"],
+    "image": "/images/sweatshirt.webp"
   }
 ]

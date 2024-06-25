@@ -1,12 +1,13 @@
-// import ProductsGrid from "@/components/products/products-grid";
+import ProductGrid from "@/components/product-grid/product-grid";
 import products from "@/public/data.json";
-import Link from "next/link";
 
 export default function Home() {
   return (
     <>
       <main>
-        <p>{/* <ProductsGrid products={products} /> */}</p>
+        <div>
+          <ProductGrid products={products} />
+        </div>
       </main>
     </>
   );
