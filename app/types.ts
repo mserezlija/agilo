@@ -6,4 +6,5 @@ export interface Product {
   size: string[];
   color: string[];
   image: string;
+  material: string;
 }

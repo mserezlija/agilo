@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.header {
+  height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+select,
+option {
+  background-color: white;
+  width: 90%;
+  margin: 0.5rem 0;
+  height: 3rem;
+  padding-left: 1rem;
+  border: solid lightgray 2px;
+  font-family: "Inter";
+}
+
+.quantity {
+  background-color: white;
+  width: 89%;
+  margin: 0.5rem 0;
+  height: 3rem;
+  border: solid lightgray 2px;
+  font-family: "Inter";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart {
+  background-color: black;
+  color: white;
+  width: 90%;
+  margin: 0.5rem 0;
+  height: 3rem;
+  padding-left: 1rem;
+  font-family: "Inter";
+  border: solid black 1px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+}

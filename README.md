@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Storefront Project
 
-## Getting Started
+## Description
 
-First, run the development server:
+This project is a storefront built with Next.js and Tailwind CSS, focusing on modular component-based architecture and TypeScript for type safety. The storefront allows customers to view a list of products, filter products by collection, visit product details pages, and choose among product variants.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Time Spent
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Approximately 6 days were spent on this project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Challenging Implementation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The most challenging aspect of this project was navigating the routing options available in Next.js, deciding which approach to use based on the project requirements and balancing between server-side rendering and client-side navigation was a significant decision point.
 
-## Learn More
+Ensuring smooth navigation between the product list, product details pages, and handling dynamic filters posed initial complexities that required careful consideration and planning.
 
-To learn more about Next.js, take a look at the following resources:
+## Most Proud Implementation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I'm especially proud of trying Next.js routing for the first time and leveraging Tailwind CSS effectively. Learning Next.js routing facilitated smooth transitions and dynamic content loading, enhancing user navigation across product listings and details pages.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Implementing responsive design with Tailwind CSS for the first time was also a significant achievement. It ensured the storefront's functionality and aesthetics remained top-notch across various devices and screen sizes, delivering a polished user experience.
 
-## Deploy on Vercel
+## Project Structure and Considerations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Folder Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    /components: Contains reusable React components used across the application.
+    /pages: Contains Next.js pages used to route to different parts of the application.
+    /public: Contains static assets like images.
+
+### Technical Choices
+
+    Next.js: Chosen for its SSR capabilities, efficient routing, and built-in TypeScript support.
+    Tailwind CSS: Used for styling to maintain a modular and responsive design system.
+    TypeScript: Utilized for static typing to catch errors early and improve code maintainability.
+    Modular Component Approach: Components are designed to be modular and reusable, enhancing code readability and scalability.
+    Responsive Design: Ensured the storefront is responsive using Tailwind CSS utility classes and media queries.

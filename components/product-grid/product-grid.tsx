@@ -22,6 +22,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ products }) => {
                   alt={product.title}
                   width={400}
                   height={500}
+                  priority
                 />
               </div>
               <div className="flex justify-between">

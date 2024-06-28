@@ -1,21 +1,21 @@
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "@/app/logo.png";
+import MenuIcon from "@/public/images/burger-menu.svg";
+import styles from "@/components/main-header/main-header.module.css";
 
 export default function MainHeader() {
   return (
-    <header className="w-full h-10 flex justify-between items-center px-4">
-      <div className="flex items-center cursor-pointer">
+    <header className={styles["main-header"]}>
+      <div className={styles["menu"]}>
         <Link href="/">
           <div>
-            <div className="w-5 h-0.5 bg-black my-0.5"></div>
-            <div className="w-5 h-0.5 bg-black my-0.5"></div>
-            <div className="w-5 h-0.5 bg-black my-0.5"></div>
+            <Image src={MenuIcon} alt="Menu" width={25} height={25} priority />
           </div>
         </Link>
       </div>
-      <div className="flex justify-center flex-grow">
-        <Link href="/" className="flex self-center">
+      <div className={styles["logo"]}>
+        <Link href="/" className={styles["logo-link"]}>
           <Image
             src={Logo}
             alt="Medusajs logo"

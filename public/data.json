@@ -6,7 +6,8 @@
     "price": 9.99,
     "size": ["Small", "Medium", "Large"],
     "color": ["White", "Black"],
-    "image": "/images/coffee-mug.webp"
+    "image": "/images/coffee-mug.webp",
+    "material": "Ceramic"
   },
   {
     "id": "hoodie",
@@ -15,7 +16,8 @@
     "price": 39.99,
     "size": ["S", "M", "L", "XL"],
     "color": ["Black", "Gray"],
-    "image": "/images/hoodie.webp"
+    "image": "/images/hoodie.webp",
+    "material": "70% Cotton / 30% Polyester"
   },
   {
     "id": "longsleeve",
@@ -24,7 +26,8 @@
     "price": 29.99,
     "size": ["S", "M", "L", "XL"],
     "color": ["Black", "White"],
-    "image": "/images/longsleeve.webp"
+    "image": "/images/longsleeve.webp",
+    "material": "60% Cotton / 40% Polyester"
   },
   {
     "id": "shorts",
@@ -33,7 +36,8 @@
     "price": 19.99,
     "size": ["S", "M", "L", "XL"],
     "color": ["Black", "Gray"],
-    "image": "/images/shorts-vintage-front.webp"
+    "image": "/images/shorts-vintage-front.webp",
+    "material": "80% Polyester / 20% Cotton"
   },
   {
     "id": "sweatpants",
@@ -42,7 +46,8 @@
     "price": 34.99,
     "size": ["S", "M", "L", "XL"],
     "color": ["Black", "Gray"],
-    "image": "/images/sweatpants.webp"
+    "image": "/images/sweatpants.webp",
+    "material": "65% Cotton / 35% Polyester"
   },
   {
     "id": "sweatshirt",
@@ -51,7 +56,8 @@
     "price": 29.99,
     "size": ["S", "M", "L", "XL"],
     "color": ["Black", "Gray"],
-    "image": "/images/sweatshirt.webp"
+    "image": "/images/sweatshirt.webp",
+    "material": "50% Cotton / 50% Polyester"
   },
   {
     "id": "tshirt-black",
@@ -60,7 +66,8 @@
     "price": 14.99,
     "size": ["S", "M", "L", "XL"],
     "color": ["Black"],
-    "image": "/images/tee-black.webp"
+    "image": "/images/tee-black.webp",
+    "material": "100% Cotton"
   },
   {
     "id": "tshirt-white",
@@ -69,7 +76,8 @@
     "price": 14.99,
     "size": ["S", "M", "L", "XL"],
     "color": ["White"],
-    "image": "/images/tee-white.webp"
+    "image": "/images/tee-white.webp",
+    "material": "100% Cotton"
   },
   {
     "id": "235",
@@ -78,24 +86,27 @@
     "price": 19.99,
     "size": ["S", "M", "L", "XL"],
     "color": ["Black", "Gray"],
-    "image": "/images/shorts-vintage-front.webp"
+    "image": "/images/shorts-vintage-front.webp",
+    "material": "80% Polyester / 20% Cotton"
   },
   {
-    "id": "543",
+    "id": "sweatpants2",
     "title": "Sweatpants",
     "description": "Cozy sweatpants.",
     "price": 34.99,
     "size": ["S", "M", "L", "XL"],
     "color": ["Black", "Gray"],
-    "image": "/images/sweatpants.webp"
+    "image": "/images/sweatpants.webp",
+    "material": "65% Cotton / 35% Polyester"
   },
   {
-    "id": "sweatsh5678irt",
+    "id": "sweatshirt2",
     "title": "Sweatshirt",
     "description": "Warm sweatshirt.",
     "price": 29.99,
     "size": ["S", "M", "L", "XL"],
     "color": ["Black", "Gray"],
-    "image": "/images/sweatshirt.webp"
+    "image": "/images/sweatshirt.webp",
+    "material": "50% Cotton / 50% Polyester"
   }
 ]
